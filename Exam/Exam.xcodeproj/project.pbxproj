@@ -3,14 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE5E7DD924E467830008A527 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5E7DD824E467830008A527 /* Default-568h@2x.png */; };
+		CE5E7DDB24E467ED0008A527 /* DataVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5E7DDA24E467ED0008A527 /* DataVM.swift */; };
+		CE5E7DDF24E4691C0008A527 /* ServiceVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5E7DDE24E4691C0008A527 /* ServiceVM.swift */; };
+		CE5E7DE124E469370008A527 /* ServiceDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5E7DE024E469370008A527 /* ServiceDetailsView.swift */; };
+		CE5E7DE424E46A590008A527 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5E7DE324E46A590008A527 /* NetworkManager.swift */; };
+		CE5E7DE824E46B5D0008A527 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5E7DE724E46B5D0008A527 /* Models.swift */; };
 		CE88DF6E24E45F14009B1507 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88DF6D24E45F14009B1507 /* AppDelegate.swift */; };
 		CE88DF7024E45F14009B1507 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88DF6F24E45F14009B1507 /* SceneDelegate.swift */; };
 		CE88DF7324E45F14009B1507 /* Exam.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE88DF7124E45F14009B1507 /* Exam.xcdatamodeld */; };
-		CE88DF7524E45F14009B1507 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88DF7424E45F14009B1507 /* ContentView.swift */; };
+		CE88DF7524E45F14009B1507 /* DataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88DF7424E45F14009B1507 /* DataView.swift */; };
 		CE88DF7724E45F15009B1507 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE88DF7624E45F15009B1507 /* Assets.xcassets */; };
 		CE88DF7A24E45F15009B1507 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE88DF7924E45F15009B1507 /* Preview Assets.xcassets */; };
 		CE88DF7D24E45F15009B1507 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE88DF7B24E45F15009B1507 /* LaunchScreen.storyboard */; };
@@ -21,11 +27,17 @@
 /* Begin PBXFileReference section */
 		885AD15E6414275C946894C5 /* Pods_Exam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Exam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A7497638F74199CAF23BE2E /* Pods-Exam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Exam.debug.xcconfig"; path = "Target Support Files/Pods-Exam/Pods-Exam.debug.xcconfig"; sourceTree = "<group>"; };
+		CE5E7DD824E467830008A527 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CE5E7DDA24E467ED0008A527 /* DataVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataVM.swift; sourceTree = "<group>"; };
+		CE5E7DDE24E4691C0008A527 /* ServiceVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceVM.swift; sourceTree = "<group>"; };
+		CE5E7DE024E469370008A527 /* ServiceDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceDetailsView.swift; sourceTree = "<group>"; };
+		CE5E7DE324E46A590008A527 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		CE5E7DE724E46B5D0008A527 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		CE88DF6A24E45F14009B1507 /* Exam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Exam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE88DF6D24E45F14009B1507 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE88DF6F24E45F14009B1507 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CE88DF7224E45F14009B1507 /* Exam.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Exam.xcdatamodel; sourceTree = "<group>"; };
-		CE88DF7424E45F14009B1507 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE88DF7424E45F14009B1507 /* DataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataView.swift; sourceTree = "<group>"; };
 		CE88DF7624E45F15009B1507 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE88DF7924E45F15009B1507 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE88DF7C24E45F15009B1507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -52,8 +64,74 @@
 				8A7497638F74199CAF23BE2E /* Pods-Exam.debug.xcconfig */,
 				E2FC77AF95F1EE92B5E7CB78 /* Pods-Exam.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		CE5E7DD624E466DB0008A527 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE88DF8424E460B8009B1507 /* GoogleService-Info.plist */,
+				CE5E7DD824E467830008A527 /* Default-568h@2x.png */,
+				CE88DF7B24E45F15009B1507 /* LaunchScreen.storyboard */,
+				CE88DF6D24E45F14009B1507 /* AppDelegate.swift */,
+				CE88DF6F24E45F14009B1507 /* SceneDelegate.swift */,
+				CE88DF7E24E45F15009B1507 /* Info.plist */,
+				CE88DF7624E45F15009B1507 /* Assets.xcassets */,
+				CE88DF7124E45F14009B1507 /* Exam.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CE5E7DD724E466FA0008A527 /* ListForDataCollection */ = {
+			isa = PBXGroup;
+			children = (
+				CE88DF7424E45F14009B1507 /* DataView.swift */,
+				CE5E7DDA24E467ED0008A527 /* DataVM.swift */,
+			);
+			path = ListForDataCollection;
+			sourceTree = "<group>";
+		};
+		CE5E7DDC24E4685A0008A527 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				CE5E7DDD24E468700008A527 /* ServiceData */,
+				CE5E7DD724E466FA0008A527 /* ListForDataCollection */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		CE5E7DDD24E468700008A527 /* ServiceData */ = {
+			isa = PBXGroup;
+			children = (
+				CE5E7DDE24E4691C0008A527 /* ServiceVM.swift */,
+				CE5E7DE024E469370008A527 /* ServiceDetailsView.swift */,
+			);
+			path = ServiceData;
+			sourceTree = "<group>";
+		};
+		CE5E7DE224E469780008A527 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				CE5E7DE324E46A590008A527 /* NetworkManager.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		CE5E7DE524E46B320008A527 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				CE5E7DE624E46B470008A527 /* Models */,
+				CE5E7DE224E469780008A527 /* NetworkManager */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		CE5E7DE624E46B470008A527 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE5E7DE724E46B5D0008A527 /* Models.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		CE88DF6124E45F14009B1507 = {
@@ -77,14 +155,9 @@
 		CE88DF6C24E45F14009B1507 /* Exam */ = {
 			isa = PBXGroup;
 			children = (
-				CE88DF6D24E45F14009B1507 /* AppDelegate.swift */,
-				CE88DF6F24E45F14009B1507 /* SceneDelegate.swift */,
-				CE88DF7424E45F14009B1507 /* ContentView.swift */,
-				CE88DF7624E45F15009B1507 /* Assets.xcassets */,
-				CE88DF7B24E45F15009B1507 /* LaunchScreen.storyboard */,
-				CE88DF7E24E45F15009B1507 /* Info.plist */,
-				CE88DF7124E45F14009B1507 /* Exam.xcdatamodeld */,
-				CE88DF8424E460B8009B1507 /* GoogleService-Info.plist */,
+				CE5E7DE524E46B320008A527 /* DataManager */,
+				CE5E7DDC24E4685A0008A527 /* Modules */,
+				CE5E7DD624E466DB0008A527 /* Resources */,
 				CE88DF7824E45F15009B1507 /* Preview Content */,
 			);
 			path = Exam;
@@ -169,6 +242,7 @@
 				CE88DF7D24E45F15009B1507 /* LaunchScreen.storyboard in Resources */,
 				CE88DF8524E460B8009B1507 /* GoogleService-Info.plist in Resources */,
 				CE88DF7A24E45F15009B1507 /* Preview Assets.xcassets in Resources */,
+				CE5E7DD924E467830008A527 /* Default-568h@2x.png in Resources */,
 				CE88DF7724E45F15009B1507 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,9 +296,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE5E7DE124E469370008A527 /* ServiceDetailsView.swift in Sources */,
+				CE5E7DDF24E4691C0008A527 /* ServiceVM.swift in Sources */,
 				CE88DF6E24E45F14009B1507 /* AppDelegate.swift in Sources */,
+				CE5E7DDB24E467ED0008A527 /* DataVM.swift in Sources */,
+				CE5E7DE424E46A590008A527 /* NetworkManager.swift in Sources */,
 				CE88DF7324E45F14009B1507 /* Exam.xcdatamodeld in Sources */,
-				CE88DF7524E45F14009B1507 /* ContentView.swift in Sources */,
+				CE5E7DE824E46B5D0008A527 /* Models.swift in Sources */,
+				CE88DF7524E45F14009B1507 /* DataView.swift in Sources */,
 				CE88DF7024E45F14009B1507 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,7 +445,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Exam/Preview Content\"";
 				DEVELOPMENT_TEAM = 6WCGH4JR2H;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Exam/Info.plist;
+				INFOPLIST_FILE = Exam/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -387,7 +466,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Exam/Preview Content\"";
 				DEVELOPMENT_TEAM = 6WCGH4JR2H;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Exam/Info.plist;
+				INFOPLIST_FILE = Exam/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  DataView.swift
 //  Exam
 //
 //  Created by Waseem on 12/08/20.
@@ -8,14 +8,17 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct DataView: View {
+    @ObservedObject var dataVM: DataVM = DataVM()
     var body: some View {
-        Text("Hello, World!")
+        Text("Hwllo").onAppear{
+            self.dataVM.setTheFetchedData()
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        DataView()
     }
 }
