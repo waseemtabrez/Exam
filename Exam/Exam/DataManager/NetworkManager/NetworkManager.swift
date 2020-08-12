@@ -18,7 +18,7 @@ struct NetworkManager {
    private let baseURL = URL(string: "https://us-central1-bibliotecadecontenido.cloudfunctions.net/helloWorld")!
    
    func getDataFromServer(completion: @escaping(_ gnomes: ExamApiResponse?, _ error: Error?) -> ()) {
-      let filmURL = baseURL//.appendingPathComponent("films")
+      let filmURL = baseURL
       urlSession.dataTask(with: filmURL) { (data, response, error) in
          if let error = error {
             completion(nil, error)
@@ -26,7 +26,6 @@ struct NetworkManager {
          }
          
          guard let data = data else {
-//            let error = NSError(domain: dataErrorDomain, code: DataErrorCode.networkUnavailable.rawValue, userInfo: nil)
             completion(nil, error)
             return
          }

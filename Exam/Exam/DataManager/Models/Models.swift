@@ -17,7 +17,7 @@ struct ChartData: Codable, Hashable {
        case percentage = "percetnage"
     }
 }
-struct QuestionsModel: Codable {
+struct QuestionsModel: Codable, Hashable {
     var total: Int?
     var text: String?
     var chartData: [ChartData]?
